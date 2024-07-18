@@ -1,0 +1,16 @@
+.order-summary {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary h3 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  

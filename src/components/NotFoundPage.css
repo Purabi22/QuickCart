@@ -1,0 +1,20 @@
+.not-found-page {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-page h1 {
+    font-size: 100px;
+    color: #dc3545;
+  }
+  
+  .not-found-page h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-page p {
+    font-size: 18px;
+    color: #6c757d;
+  }
+  

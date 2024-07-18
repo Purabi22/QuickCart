@@ -1,0 +1,15 @@
+.related-products-container {
+    margin-top: 20px;
+  }
+  
+  .related-products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .related-products-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  

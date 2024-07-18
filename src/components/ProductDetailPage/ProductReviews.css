@@ -1,0 +1,29 @@
+.product-reviews-container {
+    margin-top: 20px;
+  }
+  
+  .reviews-list {
+    margin-top: 10px;
+  }
+  
+  .review-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review-rating {
+    font-weight: bold;
+  }
+  
+  .review-comment {
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .review-author {
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+  }
+  

@@ -1,0 +1,62 @@
+/* Navigation.css */
+
+.navbar {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding inside the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Larger font size for brand/logo */
+  font-weight: bold; /* Bold font weight */
+  text-decoration: none; /* Remove default underline */
+  color: #fff; /* White text color */
+}
+
+.navbar-brand:hover {
+  color: #ccc; /* Light gray on hover */
+}
+
+.navbar-nav {
+  list-style-type: none; /* Remove default list styling */
+  display: flex; /* Display items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-item {
+  margin-right: 10px; /* Margin between navigation items */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove default underline */
+  color: #fff; /* White text color */
+  padding: 8px 12px; /* Padding inside the link */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.nav-link:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+/* Optional: Add active link style */
+.nav-link.active {
+  background-color: #444; /* Slightly darker background for active link */
+}
+
+/* Optional: Button style for special action links */
+.special-link {
+  background-color: #f44336; /* Red background */
+  color: #fff; /* White text color */
+  padding: 8px 12px; /* Padding */
+  border-radius: 4px; /* Rounded corners */
+  text-decoration: none; /* Remove default underline */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.special-link:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}

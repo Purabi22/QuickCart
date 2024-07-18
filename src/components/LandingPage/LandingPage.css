@@ -1,0 +1,38 @@
+/* src/components/LandingPage/LandingPage.css */
+
+.landing-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .landing-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .auth-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .auth-options a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-options a:hover {
+    background-color: #0056b3;
+  }
+  

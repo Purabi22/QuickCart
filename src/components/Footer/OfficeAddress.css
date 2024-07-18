@@ -1,0 +1,11 @@
+.office-address {
+    margin-bottom: 20px;
+  }
+  
+  .office-address address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+  }
+  

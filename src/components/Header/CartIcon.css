@@ -1,0 +1,17 @@
+.cart-icon {
+  position: relative;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  color: #fcfcfc;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem;
+}
+
+.cart-link:hover {
+  color: #007bff;
+}

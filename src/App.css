@@ -1,0 +1,71 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 20px; /* Add margin-top to separate main content from header */
+}
+
+/* Header and Footer */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0; /* Prevent header from shrinking */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+/* Landing Page */
+.landing-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.landing-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.auth-options {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-options a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.auth-options a:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,24 @@
+.support-links {
+    margin-bottom: 20px;
+  }
+  
+  .links-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-list li {
+    margin-bottom: 8px;
+  }
+  
+  .links-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .links-list a:hover {
+    color: #007bff;
+  }
+  

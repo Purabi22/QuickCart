@@ -1,0 +1,16 @@
+.auth-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-link {
+    color: #f1e8e8;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-link:hover {
+    color: #007bff;
+  }
+  
